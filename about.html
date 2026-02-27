@@ -1,94 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<!--
+  <!--
   Name: E. Runyan
   Date: Feb. 15, 2026
   Course: IS_LT 4355-7355
   Description: Web Design and Development
 -->
 
-<!-- Head section -->
+  <!-- Head section -->
 
-<head>
-  <!-- Meta data for charset and responsive viewport -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Website title -->
-  <title>About Me</title>
+  <head>
+    <!-- Meta data for charset and responsive viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Website title -->
+    <title>About Me</title>
 
-  <!-- Link to external CSS for styling -->
-  <link rel="stylesheet" href="style.css">
-</head>
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- Body section content-->
+  <body>
+    <!-- Body section content-->
 
-  <!-- Header section -->
-  <header>
+    <!-- Header section -->
+    <header>
+      <!-- Logo and page title -->
+      <div>
+        <span id="nav-logo"></span>
+        <h1>About Me</h1>
+      </div>
 
-    <!-- Logo and page title -->
-    <div>
-      <span id="nav-logo"></span>
-      <h1>About Me</h1>
-    </div>
+      <!-- Nav -->
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About Me</li>
+          <li>Experience</li>
+          <li>Reflection</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
 
-    <!-- Nav -->
-    <nav>
+    <!-- Website content -->
+    <section>
+      <div id="profile-picture"></div>
+      <div id="about-me">
+        <p>
+          Hello and welcome. I’m El, an educator and aspiring instructional
+          designer. I discovered an interest in digital creation early in life.
+          As a young adult, I used to design basic websites on GeoCities. I find
+          the ability to render documents digitally fascinating.
+        </p>
+        <p>
+          During my time at The University of Memphis, I enjoyed document
+          design. Content creation has become more than just a hobby. However,
+          it was the MAT licensure program that inspired me to learn more about
+          instructional design.
+        </p>
+        <p>
+          As a professional, I love the process of creating content and
+          designing documents. My understanding of document design helps me
+          regularly improve my teaching practice.
+        </p>
+        <p>
+          When not trying to design the perfect document, I am a moderate
+          crafter. I make a range of small projects from quilts to paintings. My
+          philosophy is to make education practical and enjoyable. Ultimately, I
+          want to develop my skills to support my students better. I look
+          forward to getting to know everyone.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+
       <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Experience</li>
-        <li>Reflection</li>
-        <li>Contact</li>
+        <li>
+          Master of Science in Information Science and Learning Technologies:
+          Learning Technologies and Design, University of Missouri, 2026 –
+          estimated 2028
+        </li>
+        <li>
+          Master of Arts in Teaching: Instructional and Curriculum Leadership,
+          University of Memphis, 2016-2020
+        </li>
+        <li>
+          Bachelor of Fine Arts in English: Concentration Professional Writing,
+          University of Memphis, 2011-2016
+        </li>
       </ul>
-    </nav>
+    </section>
 
-  </header>
+    <!-- Professional PPT Video -->
+    <section>
+      <h3>Professional Video</h3>
+      <div id="PPT-Video"></div>
+    </section>
 
-  <!-- Website content -->
-  <section>
-    <div id="profile-picture"></div>
-    <div id="about-me">
-      <p>Hello and welcome. I’m El, an educator and aspiring instructional designer. I discovered an interest in digital creation early in life. As a young adult, I used to design basic websites on GeoCities. I find the ability to render documents digitally fascinating.</p>
-      <p>During my time at The University of Memphis, I enjoyed document design. Content creation has become more than just a hobby. However, it was the MAT licensure program that inspired me to learn more about instructional design.</p>
-      <p>As a professional, I love the process of creating content and designing documents. My understanding of document design helps me regularly improve my teaching practice.</p>
-      <p>When not trying to design the perfect document, I am a moderate crafter. I make a range of small projects from quilts to paintings. My philosophy is to make education practical and enjoyable. Ultimately, I want to develop my skills to support my students better. I look forward to getting to know everyone.</p>
-    </div>
-  </section>
+    <!-- Resume section -->
+    <section>
+      <h3>Resume</h3>
 
-  <section>
-    <h3>Education</h3>
-    <div>
-      <ul>
-        <li>Master of Science in Information Science and Learning Technologies: Learning Technologies and Design, University of Missouri, 2026 – estimated 2028</li>
-        <li>Master of Arts in Teaching: Instructional and Curriculum Leadership, University of Memphis, 2016-2020</li>
-        <li>Bachelor of Fine Arts in English: Concentration Professional Writing, University of Memphis, 2011-2016</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Professional PPT Video -->
-  <section>
-    <h3>Professional Video</h3>
-    <div id="PPT-Video"></div>
-  </section>
-
-  <!-- Resume section -->
-  <section>
-    <h3>Resume</h3>
-    <div id="resumePDF">
       <p>My Resume</p>
-    </div>
-  </section>
+    </section>
 
-
-  <!-- Footer section including author and date -->
-  <footer>
-    <div id="footer-logo"></div>
-    <p>E. Runyan</p>
-    <p><time datetime="2026-02-03">Feburary 3,2026</time></p>
-  </footer>
-</body>
-
+    <!-- Footer section including author and date -->
+    <footer>
+      <div id="footer-logo"></div>
+      <p>E. Runyan</p>
+      <p><time datetime="2026-02-03">Feburary 3,2026</time></p>
+    </footer>
+  </body>
 </html>
