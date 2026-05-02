@@ -1,0 +1,185 @@
+header {
+  background: initial;
+  background-color: #a6a4df;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container img {
+  width: 50px; 
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+/* Primary Navigation */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 3px 0;
+  padding: 0 4px;
+}
+
+#nav-container {
+  margin: 0;
+  padding: 0;
+}
+
+img.hamburger-menu {
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+label.checkbtn {
+  color: white;
+  cursor: pointer;
+ }
+
+ .nav-mobile, #check, #nav-container {
+  display: none;
+ }
+
+ #check:checked ~ .nav-mobile {
+  display: block;
+ }
+
+ .nav-mobile {
+  position: absolute;
+  top: 4.5rem;
+  right: 10px;
+  background: #272757;
+  z-index: 1;
+  width: 150px;
+ }
+
+ .nav-mobile a {
+  color: #a6a4df;
+  padding: 1rem 1.5rem;
+  display: block;
+  font-weight: bolder;
+ }
+
+
+/* Link styles */
+
+nav li a, nav li a:link, nav li a:active {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #272757;
+  background-color: #a6a4df;
+}
+
+nav li a:hover {
+  color: #e6e7ee;
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+
+/* Dropdown Nav */
+#dropdown {
+  position: relative;
+}
+
+#dropdown-content {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  z-index: 1;
+  padding: 3px 5px;
+  margin: 2px 6px;
+  width: 150px;
+  display: none;
+}
+
+#dropdown-content a {
+float: none;
+color: #272757;
+font-size: 1rem;
+padding: 1rem 1.5rem;
+text-decoration: none;
+display: block;
+}
+
+#dropdown-content a:link, #dropdown-content a:active {
+  color: #272757;
+  font-size: 1rem;
+}
+
+
+#dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+#dropdown:hover #dropdown-content, #dropdown-content a:hover {
+  display: block;
+  color: #e6e7ee;
+  
+}
+
+#top-nav #dropdown-content a:hover {
+  background-color: #272757;
+  color: #a6a4df;
+}
+
+
+@media screen and (max-width: 600px) {
+  nav#top-nav {
+    display: none;
+  }
+
+  img.hamburger-menu, #nav-container {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .nav-mobile {
+    top: 55px;
+    right: 0px;
+    width: 50%;
+    
+    }
+    
+  .nav-mobile a {
+    font-size: 1rem;
+    font-weight: bolder;
+    }
+
+  .nav-mobile a:hover {
+    color: #272757;
+    background-color: #a6a4df;
+    text-decoration: underline;
+    }
+
+    #mobile-dropdown a {
+      position: relative;
+    }
+
+   #mobile-dropdown-content {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    padding: 0;
+    width: 100%;
+    display: none;
+    background-color: #272757;
+    }
+
+
+  #mobile-dropdown:hover #mobile-dropdown-content {
+    display: none;
+  }
+}

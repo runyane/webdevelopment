@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <!--
+  Name: E. Runyan
+  Date: Feb. 15, 2026
+  Course: IS_LT 4355-7355
+  Description: Web Design and Development
+-->
+
+  <!-- Head section -->
+
+  <head>
+    <!-- Meta data for charset and responsive viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website title -->
+    <title>Runyan Personal Profile: About Me</title>
+
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="media/images/favicon.ico">
+
+    <!-- Custom font used here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet">
+  </head>
+  
+  <!-- Body section content-->
+  <body>
+     <?php include 'header.php'; ?>
+    
+    <!-- Website content -->
+     <main id="about-me">
+      <h1>About Me</h1>
+      <p>
+        Hello and welcome. I’m El, an educator and aspiring instructional
+        designer. Instructional design was not my intention, more like something
+        I fell into. Like many English majors, I wanted to be a great writer and
+        tell stories that inspired people. Unable to produce anything even
+        remotely entertaining, I decided that if I couldn't write on a regular
+        basic I could teach others the basics of writing. So I joined the family
+        business and became an educator.
+      </p>
+      <h2>Background</h2>
+      <p>
+        My teaching education sparked the return of another interest as I
+        returned to digital creation, something I was passionate about early in
+        life. As a young adult, I used to design basic websites on GeoCities. I
+        find the ability to render documents digitally fascinating. During my
+        time at The University of Memphis, I enjoyed document design and content
+        creation has become more than just a hobby. However, it was the MAT
+        licensure program that inspired me to learn more about instructional
+        design.
+      </p>
+      <img
+        src="media/images/profile-pic.jpeg"
+        alt="author_profile_picture"
+        class="profile-pic">
+      <p>
+        As a professional, I love the process of creating content and designing
+        documents. I am able to adapt any curriculum to my students needs
+        through content design. Making the assignments fun, engaging and easy to
+        use is one of my primary goals as an educator. Students should have to
+        struggle to understand the content. My goal is to give students the
+        tools they need to communicate in a variety of modes. Understanding
+        document design helps me regularly improve my teaching practice.
+      </p>
+      <p>
+        When not trying to design the perfect document, I am a moderate crafter.
+        I make a range of small projects from quilts to paintings. My philosophy
+        is to make education practical and enjoyable. Ultimately, I want to
+        develop my skills to support my students better.
+      </p>
+      <img
+        src="media/images/profile-placeholder.jpg"
+        alt="teacher_placeholder"
+        class="placeholder">
+       
+
+    </main>
+    <section class="education">
+      <h2>Education</h2>
+      <!-- Resume section -->
+
+      <div class="resume">
+        <h3>Resume</h3>
+        <div class="circle">
+          <a href="Runyan_Resume.pdf">Download My Resume</a>
+        </div>
+      </div>
+      <!-- Education  -->
+   
+      <ul>
+        <li>
+          Master of Science in Information Science and Learning Technologies:
+          Learning Technologies and Design, University of Missouri, 2026 –
+          estimated 2028
+        </li>
+        <li>
+          Master of Arts in Teaching: Instructional and Curriculum Leadership,
+          University of Memphis, 2016-2020
+        </li>
+        <li>
+          Bachelor of Fine Arts in English: Concentration Professional Writing,
+          University of Memphis, 2011-2016
+        </li>
+      </ul>
+
+      <section class="media">
+        <h3>Featured</h3>
+        <!-- Professional PPT Video -->
+     
+         <video width="400" height="230" controls>
+           <source src="media/videos/Runyan_Resume_Video.mp4" type="video/mp4">
+           Your browser does not support the video tag.</video>
+  
+         <figure>
+         <figcaption>Take a look!</figcaption></figure>
+      
+      </section>
+    </section>
+
+    <?php include 'footer.php'; ?>
+  </body>
+</html>
