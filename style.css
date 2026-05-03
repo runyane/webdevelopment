@@ -708,6 +708,11 @@ button:hover {
 }
 
 /* Hero Styles */
+
+section .hero {
+  height: 100%;
+}
+
 .hero {
   margin: 0;
   padding: 0;
