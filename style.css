@@ -50,6 +50,7 @@ blockquote {
 
 #about-me h1 {
   grid-column: 1 / span 4;
+  margin-top: 5px;
 }
 
 #about-me h2 {
