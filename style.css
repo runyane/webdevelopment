@@ -622,7 +622,7 @@ input[type="text"], input[type="email"] {
 }
 
 textarea {
-  margin: 10px 0;
+  margin: 10px;
   padding: 10px 8px;
 }
 

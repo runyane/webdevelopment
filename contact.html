@@ -51,7 +51,7 @@
       <!-- Mobile Nav -->
       <nav id="nav-container">
         <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
+        <label for="check" class="checkbtn" aria-label="menu">
           <img src="media/images/icons8-menu-50.png" alt="menu" class="hamburger-menu">
         </label>
         <div class="nav-mobile">
@@ -73,7 +73,7 @@
 
       <!-- Desktop Nav -->
       <nav id="top-nav">
-        <label for="desktop-check" class="checkbtn">
+        <label for="desktop-check" class="checkbtn" aria-label="menu">
           <input type="checkbox" id="desktop-check">
         </label>
         <ul>
@@ -100,14 +100,14 @@
     <form>
       <fieldset class="contact-info">
         <legend>Contact Information</legend>
-      <label class="user-info">Title:
+      <label class="user-info" aria-label="user-title">Title:</label>
       <select name="title" id="user-title" required>
         <option value="">Dr.</option>
         <option value="Mr." selected>Mr.</option>
         <option value="Mrs.">Mrs.</option>
         <option value="Ms.">Ms.</option>
         <option value="Ms.">Ms.</option>
-      </select></label>
+      </select>
  
       <label class="user-info">Name:
       <input type="text" name="name" id="user-name" placeholder="First, Last Name" required></label>
@@ -126,8 +126,9 @@
 
     </fieldset>
     <fieldset class="message-field">
-      <label class="user-info">Message:
-      <textarea name="message" id="user-message" cols="20" rows="10" required placeholder="Add message"></textarea></label>
+      <legend>Message</legend>
+      <label class="user-info" aria-label="user-info">Message:</label>
+      <textarea name="message" id="user-message" cols="20" rows="10" required placeholder="Add message"></textarea>
     </fieldset>
       <button type="submit">Submit</button>
     </form>
@@ -138,7 +139,7 @@
       <div class="logo-container">
         <img class="logo"
         src="media/images/Logo.jpg"
-        alt="logo">
+        alt="runyan-logo">
       </div>
       <div class="footer-copyright">
         <p>
