@@ -709,7 +709,7 @@ button:hover {
 
 /* Hero Styles */
 
-section .hero {
+section.hero {
   height: 100%;
 }
 
